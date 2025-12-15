@@ -126,7 +126,7 @@ margin:20px;
 }
 
 a:link {
-  color: pink;
+  color: #7C1779;
   background-color: transparent;
   text-decoration: none;
 }
@@ -275,3 +275,4 @@ font-family: 'jes';
   font-size: 35px;
   cursor: pointer;
 }
+
