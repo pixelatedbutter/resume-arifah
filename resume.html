@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>RESUME</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link href="cat2.gif" rel="icon">
+    <link rel="stylesheet" href="styleee.css">
+</head>
+<body onload="startTime()">
+
+    <header>
+        <div class="w3-container w3-center w3-animate-zoom">
+<header style="background-image: url('header.jpg'); background-color: #A1BC98; background-repeat: no-repeat; background-size: cover; background-position: center ; height:220px;">
+<h1 style = "color: #640D5F; font-family: mycus; font-size: 80px;">MY RESUME : HOME </h1>
+<img src ="1.gif">
+
+</header>
+
+
+   
+    <div id="main-content">
+ 
+            <div class="topnav">
+                <a href="resume.html">HOME</a>
+		<a href="education.html">EDUCATION</a>
+		<a href="skill.html" >SKILLS</a>
+		<a href="hobby.html">MUSIC</a>
+		<a href="family.html">GALLERY</a>
+
+<div id="txt"></div>
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+
+<a href="https://www.instagram.com/arifaho3o/#" target="_blank" class="social-icon"> <img src="ig.jpg" width="30" height="30" ></a>
+<a href="https://www.tiktok.com/@pixelatedbutter" target="_blank" class="social-icon"> <img src="tiktok.jpg" width="30" height="30" ></a>
+</div></nav>
+<img class="align-middle" src="12.jpg" width="190" height="1200" >
+
+
+        <section>
+	<h1 style ="text-align: center; font-size:60px; font-family:swi;"><img class="align-middle" src="building6.gif" width="30" height="30";> Home <img class="align-middle" src="building6.gif" width="30" height="30" ></h1>
+
+            <div class="content-box" style="background-image: url(bg4.jpg); background-position: full; background-repeat:repeat">
+                <h2 style ="text-align: center; font-family:jes;"><img class="align-middle" src="mail3.gif" width="30" height="30" > Me <img class="align-middle" src="mail3.gif" width="30" height="30" > </h2>
+
+                <p style ="text-align: center;"><img style='border:10px solid pink; border-style:outset;' src="me.jpg" width="200" height="250" class="interactive-element"> 
+	<img style='border:10px solid pink; border-style:outset;' src="me.jpg" width="200" height="250" class="interactive-element"> 
+	<img style='border:10px solid pink; border-style:outset;' src="me.jpg" width="200" height="250" class="interactive-element"> 
+	<img style='border:10px solid pink; border-style:outset;' src="me.jpg" width="200" height="250" class="interactive-element">
+	</p>
+	</div>
+
+<p style ="text-align: center"><img src ="ghibli.gif"></p>
+
+            <div class="content-box3" style="background-image: url(bg3.jpg); background-position: full; background-repeat: no-repeat">
+                <h2 style ="text-align: center; font-family:jes;"><img class="align-middle" src="apple3.gif" width="30" height="30" >About Myself<img class="align-middle" src="apple3.gif" width="30" height="30" ></h2>
+                <p style ="text-align: center; border-style: solid; bgcolor: pink;"> My name is Arifah Binti Azhari. I was born in Kota Tinggi, Johor.</p>
+            </div>
+
+<div class="content-box4" style="background-image: url(bg1.jpg); background-position: full; background-repeat:no-repeat">
+		
+                <h2 style ="text-align: center; font-family:jes;"><img class="align-middle" src="star45.gif" width="30" height="30" >???<img class="align-middle" src="star45.gif" width="30" height="30" ></h2>
+                <p style ="text-align: center;">This is the second stacked box.</p>
+            </div>
+
+
+           </section>
+        
+ 
+    <footer>
+        &copy; 2025 ARIFAH BINTI AZHARI
+    </footer>
+</div>
+</body>
+</html> 

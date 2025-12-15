@@ -1,0 +1,277 @@
+body {
+    background-color: #D2DCB6; 
+    font-family: Arial, sans-serif;
+     background-image: url('17.jpg');
+  background-repeat:repeat;
+}
+
+.topnav {
+  background-color: #A1BC98;
+  overflow: hidden;
+height: 50px;
+}
+
+
+.topnav a {
+  float: left;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-family: "Lucida Console";
+  text-decoration: none;
+  color: black;
+}
+
+
+.topnav .social-icon{
+float: right;
+text-decoration: none;
+}
+
+#txt{
+  float: left;
+  padding: 5px 15px;
+  margin: 8px;
+ border-style: dashed;
+ border-color: white;
+ border-radius: 5px;
+ font-size: 18px;
+ font-family: mycus;
+ background-color: pink;
+ text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #778873;
+text-decoration: none;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+text-decoration: none;
+}
+
+footer { 
+    background-color: #A1BC98; 
+    color: white; 
+    clear: both; 
+    text-align: center; 
+    padding: 20px; 
+    font-family: Courier, monospace;
+}
+
+
+#main-content {
+    width: 1300px; 
+    margin: 20px auto; 
+    overflow: hidden; 
+    background-color: #778873; 
+    border: 5px solid #778873;
+}
+
+section { 
+    float: left; 
+    width: 1100px;
+height: auto; 
+}
+
+.content-box {
+   border-radius: 25px;
+    margin-bottom: 10px; 
+    padding: 10px;
+    margin: 50px;
+    background-color: #FFE797; 
+    border: 2px #BBC863;
+    font-size: 16px;
+}
+
+.content-box2 {
+border-radius: 25px;
+margin:20px;
+    padding: 10px;
+    background-color: #FFE797; 
+    border: 2px #BBC863;
+    font-size: 16px;
+    float: left;
+    height: 920px;
+    width: 500px;
+}
+
+.content-box3 {
+   border-radius: 25px;
+    margin:20px;
+    padding: 10px;
+    background-color: #FFE797; 
+    border: 2px #BBC863;
+    font-size: 16px;
+    float: left;
+    height: 500px;
+    width: 500px;
+}
+
+.content-box4 {
+   border-radius: 25px;
+    margin:20px;
+    padding: 10px;
+    background-color: #FFE797; 
+    border: 2px #BBC863;
+    font-size: 16px;
+    float: right;
+    height: 500px;
+    width: 500px;
+}
+
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: brown;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+@font-face {
+  font-family: 'mycus';
+  src: url(Romantic_Christmas.ttf);
+}
+
+@font-face {
+font-family: 'swi';
+  src: url(swirly.otf);
+}
+
+@font-face {
+font-family: 'jes';
+  src: url(Jester.ttf);
+}
+
+
+
+
+.interactive-element {
+  object-fit: cover;
+  transition: transform 0.2s ease-out;
+  /* Ensure smooth transitions for all properties */
+  will-change: transform;
+}
+
+.interactive-element:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+.flip-effect {
+  perspective: 1000px;
+}
+
+.flip-effect img {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-effect:hover img {
+  transform: rotateY(180deg);
+}
+
+
+
+
+.container {
+  position: relative;
+  width: 300px;       
+  margin: 0 auto;     
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF8282;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-family: swi;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.center-container {
+  margin: 0 auto;      
+}
+
+
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+}
+
+.containerTab {
+  padding: 20px;
+  color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

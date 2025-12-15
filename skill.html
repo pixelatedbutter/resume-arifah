@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SKILL</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link href="star126.gif" rel="icon">
+    <link rel="stylesheet" href="styleee.css">
+</head>
+<body onload="startTime()">
+
+    <header>
+        <div class="w3-container w3-center w3-animate-zoom">
+<header style="background-image: url('chu.jpg'); background-color: #A1BC98; background-repeat: no-repeat; background-size: cover; background-position: center; height:220px;">
+  <h1 style = "color: #F37199; font-family: mycus; font-size: 80px;">MY RESUME : SKILLS </h1>
+<img src ="plug.gif">
+
+
+    </header>
+
+    <div id="main-content">
+        <div class="topnav">
+                <a href="resume.html">HOME</a>
+		<a href="education.html">EDUCATION</a>
+		<a href="skill.html" >SKILLS</a>
+		<a href="hobby.html">MUSIC</a>
+		<a href="family.html">GALLERY</a>
+
+ <div id="txt"></div>
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+<a href="https://www.instagram.com/arifaho3o/#" target="_blank" class="social-icon"> <img src="ig.jpg" width="30" height="30"></a>
+<a href="https://www.tiktok.com/@pixelatedbutter" target="_blank" class="social-icon"> <img src="tiktok.jpg" width="30" height="30"></a>
+</div>
+<img class="align-middle" src="7.jpg" width="190" height="1200" >
+</nav>
+
+        <section>
+
+	<h1 style ="text-align: center; font-family:swi; font-size: 60px;"><img class="align-middle" src="star114.gif" width="30" height="30" > My Skills <img class="align-middle" src="star114.gif" width="30" height="30" ></h1>
+            <div class="content-box" style="background-image: url(14.jpg); background-position: full; background-repeat:repeat">
+                <h2 style ="text-align: center; font-family:jes;"><img class="align-middle" src="fire.gif" width="30" height="30" > Showcase <img class="align-middle" src="fire.gif" width="30" height="30" > </h2>
+                <p style ="text-align: center;"> ?? </p>
+		<p style = "text-align: center;"> ?? </p>
+            </div>
+
+   <p style ="text-align: center"><img src ="scissors2.gif"></p>        
+
+<div class="content-box" style="background-image: url(13.jpg); background-position: full; background-repeat:repeat">
+                <h2 style ="text-align: center; font-family:jes;"><img class="align-middle" src="gift15.gif" width="30" height="30" >???<img class="align-middle" src="gift15.gif" width="30" height="30" ></h2>
+                <div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#92487A;">Soft Skills</div>
+  <div class="column" onclick="openTab('b2');" style="background:#E49BA6;">Technical Skills</div>
+  <div class="column" onclick="openTab('b3');" style="background:#FFD3D5;">Academic Skills</div>
+</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:#92487A">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Soft Skills</h2>
+  <p><ul style="list-style-type:circle;">
+  <li>Communication skills</li>
+  <li>Time management</li>
+  <li>Attention to detail</li>
+</ul> </p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#E49BA6">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Technical Skills</h2>
+  <p><ul style="list-style-type:circle;">
+  <li>Records & Information Management</li>
+  <li>Computer & Software Skills</li>
+  <li>Data & Information Handling</li>
+</ul></p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#FFD3D5">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Academic Skills</h2>
+  <p><ul style="list-style-type:circle;">
+  <li>Report writing</li>
+  <li>Presentation skills</li>
+  <li>Research skills</li>
+</ul></p>
+</div>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+            </div>
+<p style ="text-align: center"><img src ="rainbow.gif"></p>
+           </section>
+        
+ 
+    <footer>
+        &copy; 2025 ARIFAH BINTI AZHARI
+    </footer>
+</div>
+</body>
+</html>
