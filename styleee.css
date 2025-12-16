@@ -5,10 +5,6 @@ body {
   background-repeat:repeat;
 }
 
-header {
-    width: auto;
-    height: auto;
-}
 
 .topnav {
   background-color: #A1BC98;
@@ -323,6 +319,7 @@ font-family: 'jes';
   font-size: 35px;
   cursor: pointer;
 }
+
 
 
 
