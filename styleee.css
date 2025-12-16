@@ -184,6 +184,30 @@ font-family: 'jes';
 
 
 
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  aspect-ratio: 1 / 1;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .flip-effect {
   perspective: 1000px;
 }
@@ -195,6 +219,13 @@ font-family: 'jes';
 
 .flip-effect:hover img {
   transform: rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    
+  .flip-effect:hover img {
+    transform: none;
+  }
 }
 
 
@@ -280,5 +311,6 @@ font-family: 'jes';
   font-size: 35px;
   cursor: pointer;
 }
+
 
 
