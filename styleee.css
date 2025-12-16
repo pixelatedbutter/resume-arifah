@@ -1,12 +1,9 @@
 body {
-    background-color: #D2DCB6; 
-    font-family: Arial, sans-serif;
-     background-image: url('17.jpg');
-  background-repeat:repeat;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  background-color: #D2DCB6;
+  font-family: Arial, sans-serif;
+  background-image: url('17.jpg');
+  background-repeat: repeat;
+  min-height: 100vh;
 }
 
 header {
@@ -256,6 +253,7 @@ font-family: 'jes';
 
 
 
+
 .container {
   position: relative;
   width: 300px;       
@@ -336,6 +334,7 @@ font-family: 'jes';
   font-size: 35px;
   cursor: pointer;
 }
+
 
 
 
