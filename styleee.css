@@ -240,6 +240,10 @@ font-family: 'jes';
   height: 100%;
   object-fit: cover;
 }
+.object-fit: cover{
+object-fit: contain;
+background: black;
+}
 
 
 
@@ -326,6 +330,7 @@ font-family: 'jes';
   font-size: 35px;
   cursor: pointer;
 }
+
 
 
 
