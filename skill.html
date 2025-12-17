@@ -7,6 +7,21 @@
     <link href="star126.gif" rel="icon">
     <link rel="stylesheet" href="styleee.css">
 </head>
+
+	<script>
+function openTab(tabId) {
+  var tabs = document.getElementsByClassName("containerTab");
+
+  // Hide all tabs first
+  for (var i = 0; i < tabs.length; i++) {
+    tabs[i].style.display = "none";
+  }
+
+  // Show the selected tab
+  document.getElementById(tabId).style.display = "block";
+}
+</script>
+
 <body onload="startTime()">
 
     <header>
@@ -112,6 +127,7 @@ function checkTime(i) {
 </body>
 
 </html>
+
 
 
 
