@@ -25,6 +25,7 @@ height: 50px;
   font-family: "Lucida Console";
   text-decoration: none;
   color: #FF76B7;
+  font-weight: bold;
 }
 
 
@@ -333,6 +334,7 @@ font-family: 'jes';
   font-size: 35px;
   cursor: pointer;
 }
+
 
 
 
