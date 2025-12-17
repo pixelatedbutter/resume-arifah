@@ -48,12 +48,12 @@ text-decoration: none;
 
 .topnav a:hover {
   background-color: white;
-  color: #778873;
+  color: #D0FFA4;
 text-decoration: none;
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #E8A0FF;
   color: white;
 list-style: none;
 display: inline-block;
@@ -75,8 +75,8 @@ footer {
     width: 1300px; 
     margin: 20px auto; 
     overflow: hidden; 
-    background-color: #006EE9; 
-    border: 5px solid #83E7FF;
+    background-color: #83E7FF; 
+    border: 5px solid #000181;
 }
 
 section { 
@@ -338,6 +338,7 @@ font-family: 'jes';
   font-size: 35px;
   cursor: pointer;
 }
+
 
 
 
