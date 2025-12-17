@@ -12,7 +12,7 @@ header {
 }
 
 .topnav {
-  background-color: #000181;
+  background-color: #FFA981;
   overflow: hidden;
 height: 50px;
 }
@@ -24,7 +24,7 @@ height: 50px;
   font-size: 20px;
   font-family: "Lucida Console";
   text-decoration: none;
-  color: #006EE9;
+  color: #FF76B7;
 }
 
 
@@ -53,7 +53,7 @@ text-decoration: none;
 }
 
 .topnav a.active {
-  background-color: #E8A0FF;
+  background-color: #FF76B7;
   color: white;
 list-style: none;
 display: inline-block;
@@ -62,7 +62,7 @@ text-decoration: none;
 }
 
 footer { 
-    background-color: #D0FFA4; 
+    background-color: #E2C6FE; 
     color: white; 
     clear: both; 
     text-align: center; 
@@ -75,8 +75,8 @@ footer {
     width: 1300px; 
     margin: 20px auto; 
     overflow: hidden; 
-    background-color: #83E7FF; 
-    border: 5px solid #E8A0FF;
+    background-color: #9E1F63; 
+    border: 5px solid #FFD3F7;
 }
 
 section { 
@@ -333,6 +333,7 @@ font-family: 'jes';
   font-size: 35px;
   cursor: pointer;
 }
+
 
 
 
