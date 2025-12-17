@@ -8,19 +8,7 @@
     <link rel="stylesheet" href="styleee.css">
 </head>
 
-	<script>
-function openTab(tabId) {
-  var tabs = document.getElementsByClassName("containerTab");
 
-  // Hide all tabs first
-  for (var i = 0; i < tabs.length; i++) {
-    tabs[i].style.display = "none";
-  }
-
-  // Show the selected tab
-  document.getElementById(tabId).style.display = "block";
-}
-</script>
 
 <body onload="startTime()">
 
@@ -73,7 +61,15 @@ function checkTime(i) {
                 <p style ="text-align: center;">  </p>
             </div>
 
-   <p style ="text-align: center"><img src ="scissors2.gif"></p>        
+   <p style ="text-align: center"><img src ="scissors2.gif"></p>     
+			function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
 
 <div class="content-box" style="background-image: url(13.jpg); background-position: full; background-repeat:repeat">
                 <h2 style ="text-align: center; font-family:jes;"><img class="align-middle" src="gift15.gif" width="30" height="30" >Skills Gained<img class="align-middle" src="gift15.gif" width="30" height="30" ></h2>
@@ -127,6 +123,7 @@ function checkTime(i) {
 </body>
 
 </html>
+
 
 
 
