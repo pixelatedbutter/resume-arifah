@@ -62,7 +62,7 @@ text-decoration: none;
 }
 
 footer { 
-    background-color: #000181; 
+    background-color: #D0FFA4; 
     color: white; 
     clear: both; 
     text-align: center; 
@@ -76,7 +76,7 @@ footer {
     margin: 20px auto; 
     overflow: hidden; 
     background-color: #83E7FF; 
-    border: 5px solid #000181;
+    border: 5px solid #E8A0FF;
 }
 
 section { 
@@ -333,6 +333,7 @@ font-family: 'jes';
   font-size: 35px;
   cursor: pointer;
 }
+
 
 
 
